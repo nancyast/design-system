@@ -1,15 +1,16 @@
 import React from 'react'
 
 import { Button, SecondaryButton, TeriButton } from 'design-system'
+// import Button from 'design-system/Button';
 
-const App = () => {
+const App = (props) => {
   return (
     <div>
-      <TeriButton>TeriButton</TeriButton>
+      {/* <TeriButton>TeriButton</TeriButton> */}
       <Button>
         Create React Library Example <span>😄</span>
       </Button>
-      <SecondaryButton>SecondaryButton</SecondaryButton>
+      {/* <SecondaryButton>SecondaryButton</SecondaryButton> */}
     </div>
   )
 }

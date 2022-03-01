@@ -1,11 +1,10 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
-    "standard-react",
-    "plugin:prettier/recommended",
-    "prettier/standard",
-    "prettier/react"
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
   ],
   "plugins": ["jest"],
   "env": {
@@ -31,6 +30,8 @@
     "react/jsx-fragments": 0,
     "react/no-unused-prop-types": 0,
     "import/export": 0,
-    "jest/no-disabled-tests": "warn"
+    "jest/no-disabled-tests": "warn",
+    "semi": "off",
+    "react/jsx-filename-extension": "off"
   }
 }
